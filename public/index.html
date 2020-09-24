@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yujing Shi">
+    <meta name="description" content="self as system according to Instagram data">
+    <title>Self As System</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <script src="./library/p5.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>SELF AS SYSTEM</h1>
+    </header>
+    <main>
+        <div class="introduction">
+            <div class="introduction">
+                <p>This is an interactive <a href="#maincanvas">Data Portrait</a> website related to Instagram data. It
+                    reflects multiple sides of one
+                    person that can be represented through the information from the Instagram account. Developed from
+                    some
+                    <a href="https://yujingsss.github.io/5-in-5-self-portraits/" target="_blank">small sketches.</a> The
+                    portrait mainly
+                    includes four parts, the data loop, interactive like system, slit-scan camera, and saved images’
+                    file
+                    path. Move around MOUSE to interact with the like system. Use the <b>CAPTURE</b> button or press
+                    <b>‘c’</b>
+                    key on the
+                    keyboard to initiate a slit-scan camera. And use the <b>SAVE</b> button or press <b>‘s’</b> key to
+                    save
+                    the
+                    image with a
+                    random 36 digit JPG file just like the file names within the Instagram data.</p>
+            </div>
+            <div id="maincanvas">
+                <h2>DATA PORTRAIT</h2>
+                <button id="saveButton">SAVE</button>
+                <button id="captureButton">CAPTURE</button>
+            </div>
+    </main>
+    <footer>
+        <p>©Yujing Shi</p>
+    </footer>
+    <script src="./js/self-as-system.js" defer></script>
+</body>
+
+</html>

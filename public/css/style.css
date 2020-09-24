@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;  
+    margin: 0 0 6em 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: crosshair;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/header-bg.jpg");
+    background-size: cover;
+}
+h1 {
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    margin: 0;
+    font-size: 54px;
+    user-select: none; 
+}
+h2 {
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    padding-bottom: 8em;
+    margin: 0;
+    font-size: 32px;
+    user-select: none; 
+}
+footer {
+    font-size: 11px;
+    color: rgb(120, 120,120);
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+    width: 100%;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    user-select: none; 
+}
+button {
+    font-size: 14px;
+    border-radius: 1px;
+    width: 100px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 1em;
+    color: white;
+    border: 0.05px solid;
+    background-color: rgba(0,0,0);
+}
+#maincanvas {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introduction {
+    width: 100vw;
+    height: 100vh;
+    font-weight: 100;
+    letter-spacing: 0.08em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction > p {
+    width: 50vw;
+    text-align: center;
+    line-height: 1.5em;
+}
+b {
+    font-weight: 400;
+}
+a {
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: line-through;
+}
